@@ -1,0 +1,40 @@
+*acessos
+registrar acesso = chmod
+acesso total gravar = chmod 777
+leitura = 444
+acesso execução = 111
+//sempre verificar se todos os acessos fica verde 
+
+*diretorio
+ver diretorio = pwd
+todos diretorios = df
+criar diretorio = mkdir
+alterar dono do diretorio = chown + nome que você quer
+
+*processos
+listar processos = ps - ef    
+processos usuario logado = ps
+todos os processos usuários ligados a um terminal = ps a
+
+
+*servidor SISTEMA OPERACIONAL
+copiar arquivo entre servidor = scp
+saude do servidor = top
+
+abrir pasta = cd
+copiar = cp
+renomear  = mv
+apagar= rm
+
+ver memoria = free
+ver mega = free m
+ver gigas = free gigas
+
+ver versão linux =  $ cat /etc/*-release
+ver pasta em ordem = ls -ltrh
+imprimir o valor = echo
+instalar zip = yum install zip unzip  
+
+entrar no oracle = sudo su – oracle
+home do usuario = bash-profile
+leitura do arquivo inicializar =  SPFILE - SID.ORA  ou init.ora

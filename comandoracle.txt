@@ -1,0 +1,8 @@
+*inicar 
+validar = echo $ORACLE_SID 
+iniciar oracle = sqlplus / as sysdba 
+
+*listener
+verificar status listener = lsnrctl status 
+
+ver versão oracle = SELECT * FROM V$VERSION;
